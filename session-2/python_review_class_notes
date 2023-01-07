@@ -36,3 +36,57 @@ new_list2 = [list1]
 print(new_list1)
 print(new_list2)
 ```
+
+The constructor builds a list whose items are the same and in the same order as iterable’s items.
+
+- list('abc') returns ['a', 'b', 'c']
+- list( (1, 2, 3) ) returns [1, 2, 3]
+
+### basic operations with list:
+
+Python has a set of built-in methods that you can use on lists:
+
+```py
+clear()	  # Removes all the elements from the list
+copy()	  # Returns a copy of the list
+```
+
+- The copy() method in Python returns a copy of the List. We can copy a list to another list using the = operator, however copying a list using = operator means that when we change the new list the copied list will also be changed, if you do not want this behaviour then use the copy() method instead of = operator.
+
+```py
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+count()	  # Returns the number of elements with the specified value
+extend()  # Add the elements of a list (or any iterable), to the end of the current list
+index()	  # Returns the index of the first element with the specified value
+pop(index)	  # Removes the element at the specified position, assigning the popped item to a new variable
+reverse() # Reverses the order of the list
+```
+
+How to reach a value inside a list:
+
+```py
+# Reach to the index no 1 inside inner list:
+a = ['ali', 2, [1,2], 7]
+a[2][1]
+2
+```
+
+How to join two list:
+
+```py
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
+# or
+list1.extend(list2)
+print(list1)
+
+# ['a', 'b', 'c', 1, 2, 3]
+```
+
+(document list)[https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range]
+(more on list)[https://docs.python.org/3/tutorial/datastructures.html#more-on-lists]
