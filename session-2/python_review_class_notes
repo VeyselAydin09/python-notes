@@ -300,3 +300,77 @@ a.union(b)
 ## Sets vs Lists vs Tuples and Dictionary
 
 ![Data Types](data_types.png)
+
+## Summary
+
+- List
+
+  - Intro
+  - Creating List
+    - []
+    - list()
+  - Basic operations with list
+    - append() # sonuna ekleme yapar
+    - insert() # belirtilen index e ekleme yapar
+    - remove() # siler belirtilen elemani
+    - sort() # siralama yapar int(rakam) kucukten buuge str alfabetik siaraya gore siralar
+    - len()
+    - pop()
+    - extend()
+    - index()
+    - count()
+  - Accessing Lists
+    - Indexing
+    - Slicing
+    - Negative Indexing & Slicing
+
+- Dictionary
+
+  - Intro
+  - Creating Dictionary
+
+    - {}
+    - dict()
+
+  - Basic operations with list
+
+    - clear()
+    - get()
+    - items()
+    - keys()
+    - pop()
+    - popitem()
+    - update()
+
+  - Accessing Dictionaries
+    - nested dicts
+
+- Tuples
+
+  - Intro
+  - Creating Tuples
+
+    - ()
+    - tuple()
+
+  - Basic operations with tuple
+    - accessings items with indexing
+    - count()
+    - index()
+
+- Set
+
+  - Intro
+  - Creating Sets
+
+    - {}
+    - set()
+
+  - Basic operations with tuple
+    - add()
+    - remove()
+    - discard
+    - pop()
+    - intersection()
+    - union()
+    - difference()
