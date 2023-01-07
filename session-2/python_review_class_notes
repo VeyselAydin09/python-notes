@@ -1,0 +1,38 @@
+# Python Collection Types
+
+- List
+- Dictionary
+- Tuple
+- Set
+
+## List
+
+Lists are mutable sequences, typically used to store collections of items (where the precise degree of similarity will vary by application).
+
+```py
+list3 = ["Apple", 1, 3.5, True, [1, 3], {"Ready": "yes"}]
+```
+
+### creating a list:
+
+Lists may be constructed in several ways:
+
+- Using a pair of square brackets to denote the empty list: []
+- Using the type constructor: list() or list(iterable)
+
+```py
+a = list()
+print(a)
+print(type(a))
+
+name = "rafe stefano"
+
+list1 = ["apple", "banana", "cherry"]
+list2 = list(name)
+
+new_list1 = list(list1)
+new_list2 = [list1]
+
+print(new_list1)
+print(new_list2)
+```
